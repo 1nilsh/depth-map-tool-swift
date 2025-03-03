@@ -24,7 +24,7 @@ do {
     let inputBaseCGImage = await File.loadImage(url: baseImageUrl)
     let inputDepthCGImage = await File.loadImage(url: depthImageUrl)
     
-    guard let depthData = DepthMap.createAVDepthData(
+    guard let depthData = try DepthMap.createAVDepthData(
         grayscaleImage: CIImage(cgImage: inputDepthCGImage!)
     ) else {
         throw AppError("Failed to get depth data")

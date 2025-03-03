@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		57C27D092D75E42B0057EA74 /* default.metallib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C27CF22D75C7AA0057EA74 /* default.metallib */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		57C27CC02D7483E10057EA74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,7 +19,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		57C27CF22D75C7AA0057EA74 /* default.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; path = default.metallib; sourceTree = "<group>"; };
 		57C27D082D75E4150057EA74 /* depth-map-tool-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "depth-map-tool-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C27D092D75E42B0057EA74 /* default.metallib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +61,6 @@
 		57C27CF12D75C7AA0057EA74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57C27CF22D75C7AA0057EA74 /* default.metallib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
