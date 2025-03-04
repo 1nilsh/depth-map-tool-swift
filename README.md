@@ -38,3 +38,7 @@ image: 375x500 (id=1), primary
 
 ![](examples/base-image.png)
 ![](examples/depth-map.png)
+
+## Other utils
+
+This utility was heavily inspired by https://github.com/JuniperPhoton/DepthMapFileCreator
